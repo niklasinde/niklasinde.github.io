@@ -5,9 +5,9 @@
 Let's go!
 
 
-[Simple Regression](https://niklasinde.github.com/simpleregression)  
+[Simple Regression](https://niklasinde.github.com/regression/simpleregression)  
 
-[Logistic Regression](https://niklasinde.github.com/logisticregression)
+[Logistic Regression](https://niklasinde.github.io/regression/Logisticregression)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
