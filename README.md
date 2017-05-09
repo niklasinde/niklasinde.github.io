@@ -1,4 +1,4 @@
-[niklasinde.github.io](www.niklasinde.github.io)
+[niklasinde.github.io](http://www.niklasinde.github.io)
 Everything i may or may not need in the future
 
 
