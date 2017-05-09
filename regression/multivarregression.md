@@ -1,9 +1,9 @@
-Hello!
-
+---
+layout: post
+title: Blogging Like a Hacker
+---
 The R function so you can try it.
 
-<pre>
-  <code class="r">
-    puts "hello"
-  </code>
-</pre>
+<code class="r">
+    lm(glm)
+</code>
