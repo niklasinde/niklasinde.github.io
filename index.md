@@ -1,6 +1,13 @@
-## Welcome to GitHub Pages
+## Welcome to Niklas Page
 
-You can use the [editor on GitHub](https://github.com/niklasinde/niklasinde.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+
+
+Let's go!
+
+
+[Simple Regression](https://niklasinde.github.com/simpleregression)  
+
+[Logistic Regression](https://niklasinde.github.com/logisticregression)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
