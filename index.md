@@ -4,9 +4,7 @@
 
 Let's go!
 
-
-[Simple Regression](https://niklasinde.github.io/regression/simpleregression)  <br/>
-[Logistic Regression](https://niklasinde.github.io/regression/Logisticregression)<br/>
+[Regression website](regression/index.md)
 [Latex](latex/index.md)<br/>
 [Markdown](https://guides.github.com/features/mastering-markdown/)<br/>
 [Rcode](R/index.md)

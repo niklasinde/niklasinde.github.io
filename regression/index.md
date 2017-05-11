@@ -7,7 +7,7 @@
 
 Let's go!
 site.time
-[Regression](https://niklasinde.github.io/regression/)
+[Regression website](regression/index.md)
 
 [Logistic Regression](https://niklasinde.github.com/logisticregression)
 

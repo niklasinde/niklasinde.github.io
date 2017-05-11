@@ -30,3 +30,11 @@ print(something)
 \end{lstlisting}
 ```
 Really nice way to include code in you \latex document
+
+### <a name="img"></a>Include images
+```latex
+\begin{figure}[H]
+\title
+    \includegraphics[scale= 0.3]{1a}
+\end{figure}
+```
