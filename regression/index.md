@@ -7,11 +7,11 @@
 
 Let's go!
 site.time
-
-[Simple Regression](https://niklasinde.github.com/simpleregression)  
+[Regression](https://niklasinde.github.io/regression/)
 
 [Logistic Regression](https://niklasinde.github.com/logisticregression)
 
+[Tree regression](http://www.di.fc.ul.pt/~jpn/r/tree/tree.html)
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
