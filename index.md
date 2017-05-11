@@ -9,7 +9,7 @@ Let's go!
 [Logistic Regression](https://niklasinde.github.io/regression/Logisticregression)<br/>
 [Latex](latex/index.md)<br/>
 [Markdown](https://guides.github.com/features/mastering-markdown/)<br/>
-
+[Rcode](R/index.md)
 Flask into Hireku --> search on youtube <br/>
 ```python
 if Iamawesome==True:
