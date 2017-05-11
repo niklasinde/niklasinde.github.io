@@ -25,8 +25,11 @@ So if you'r working on a project for a long time you don't have to update the da
 
 ### <a name="code"></a>code
 ```latex
-\begin{lstlisting}["codelanguage"]
-print(something)
+\begin{lstlisting}[language = R]
+[1] "mean error test:" "1.46934685949842"
+[1] "mean error train:" "2.38344678143766"
+[1] "mean error test:" "1.44979433585936"
+[1] "mean error train:" "2.47167748969558"
 \end{lstlisting}
 ```
 Really nice way to include code in you \latex document
@@ -34,7 +37,8 @@ Really nice way to include code in you \latex document
 ### <a name="img"></a>Include images
 ```latex
 \begin{figure}[H]
-\title
-    \includegraphics[scale= 0.3]{1a}
+\centering
+\title{}
+\includegraphics[scale= 0.5]{filename}
 \end{figure}
 ```
