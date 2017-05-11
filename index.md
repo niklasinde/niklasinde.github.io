@@ -4,7 +4,7 @@
 
 Let's go!
 
-[Regression website](regression/index.md)
+[Regression website](regression/index.md)<br/>
 [Latex](latex/index.md)<br/>
 [Markdown](https://guides.github.com/features/mastering-markdown/)<br/>
 [Rcode](R/index.md)
