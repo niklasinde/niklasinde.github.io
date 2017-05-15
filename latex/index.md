@@ -42,3 +42,13 @@ Really nice way to include code in you \latex document
 \includegraphics[scale= 0.5]{filename}
 \end{figure}
 ```
+Conditional function
+```
+\[
+    X=
+\begin{cases}
+    1,& \text{if male} \\
+    0,              & \text{if women}
+\end{cases}
+\]
+```
