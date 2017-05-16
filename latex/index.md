@@ -1,5 +1,6 @@
 # How to write latex:
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
 
 First go to [sharelatex.com](sharelatex.com). Create an account and start doing yo thang.
 
@@ -32,7 +33,7 @@ So if you'r working on a project for a long time you don't have to update the da
 [1] "mean error train:" "2.47167748969558"
 \end{lstlisting}
 ```
-Really nice way to include code in you \latex document
+Really nice way to include code in you latex document
 
 ### <a name="img"></a>Include images
 ```latex
@@ -52,3 +53,5 @@ Conditional function
 \end{cases}
 \]
 ```
+
+ $a^2 + b^2 = c^2$ --> note that all equations between these tags will not need escaping!
