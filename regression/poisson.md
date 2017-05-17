@@ -4,4 +4,5 @@ Poisson regression assumes the response variable has a poisson distribution, and
 
 
 
-$$\frac
+$$P(X=n)=\frac{\lambda^n}{n!}e^{-\lambda}$$
+$$log(E(Y|x))=\alpha+\beta x=\theta x$$

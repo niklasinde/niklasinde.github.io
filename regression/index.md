@@ -16,7 +16,8 @@ site.time
 regression/poisson.md
 
 
-
+<table class="wikitable" style="background:white;">
+<caption>Common distributions with typical uses and canonical link functions</caption>
 <tbody><tr>
 <th>Distribution</th>
 <th>Support of distribution</th>
@@ -505,4 +506,4 @@ squared</td>
 </math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/703d57dca548a7f9d927247c2a27b67666aebdd5" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:5.606ex; height:2.843ex;" alt="[0,N]"></span></td>
 <td>count of occurrences of different types (1 .. <i>K</i>) out of <i>N</i> total <i>K</i>-way occurrences</td>
 </tr>
-</tbody>
+</tbody></table>
