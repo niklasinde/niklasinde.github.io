@@ -53,5 +53,16 @@ Conditional function
 \end{cases}
 \]
 ```
-
- $a^2 + b^2 = c^2$ --> note that all equations between these tags will not need escaping!
+Tabels
+```latex
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{lll}
+  & 0  & 1  \\
+0 & 40 & 10 \\
+1 & 12 & 18
+\end{tabular}
+\end{table}
+```
