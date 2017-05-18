@@ -55,7 +55,7 @@ Conditional function
 ```
 Tabels
 ```latex
-\begin{table}[]
+\begin{table}[H]
 \centering
 \caption{My caption}
 \label{my-label}
@@ -66,3 +66,4 @@ Tabels
 \end{tabular}
 \end{table}
 ```
+Note: change the number of "l" to the number of columns in your table.
