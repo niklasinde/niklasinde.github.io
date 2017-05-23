@@ -1,8 +1,11 @@
-# How to write latex:
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
 
-First go to [sharelatex.com](sharelatex.com). Create an account and start doing yo thang.
+
+# How to write latex:
+
+
+First go to [sharelatex.com](sharelatex.com). Create an account and start doing yo thang.<br/>
+### Do not download the thing to your computer. Nightmare.
 
 Nice simple snippets.<br/>
 
@@ -12,8 +15,16 @@ Nice simple snippets.<br/>
 2. [something](#something)
 3. [something](#something)
 
+## No indent
 
+```latex
+\noindent
+```
+## legend
+```latex
+legend(c("bottomright"),legend=c("Group1","Group2","Group3"),lwd=c(2.5,2.5),col=c("red","green","blue"))
 
+```
 
 
 ### <a name="today"></a>\today
@@ -67,3 +78,10 @@ Tabels
 \end{table}
 ```
 Note: change the number of "l" to the number of columns in your table.
+
+Arrows $\leftarrow \rightarrow$
+```latex
+\rightarrow
+\leftarrow
+
+```

@@ -1,12 +1,21 @@
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
 
-## Welcome to Niklas Page
+## Welcome to Regression
 
 
 
 Let's go!
-site.time
+
+To begin we need to understand that the different distributions ask different questions.
+
+Simple linear regression and multivariable regression we ask to have the error (or the residuals) to normally distrubuted with $\mathfb{N}(0,\sigma^2)$.<br/>
+So in simple linear regression we just ask the line to be in the center of the data. And in multivariable linear regression we just span this thought to higher dimensions.
+
+In logistic regression we ask to approximate the $\lambda$ 
+
+
 
 [Logistic Regression](regression/Logisticregression.md)<br>
 [Multivariable Regression](regression/multivarregression.md)<br>
