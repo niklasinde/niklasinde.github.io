@@ -23,10 +23,11 @@ Nice simple snippets.<br/>
 ## legend
 ```latex
 legend(c("bottomright"),legend=c("Group1","Group2","Group3"),lwd=c(2.5,2.5),col=c("red","green","blue"))
-
 ```
-
-
+## Distribution sign in latex
+```latex
+\sim
+```
 ### <a name="today"></a>\today
 Set title to:
 ```latex
@@ -54,7 +55,31 @@ Really nice way to include code in you latex document
 \includegraphics[scale= 0.5]{filename}
 \end{figure}
 ```
-Conditional function
+### Multicolums
+```latex
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+
+\begin{document}
+\begin{multicols}{2}
+[
+\section{First Section}
+All human things are subject to decay. And when fate summons, Monarchs must obey.
+]
+Hello, here is some text without a meaning.  This text should show what
+a printed text will look like at this place.
+If you read this text, you will get no information.  Really?  Is there
+no information?  Is there...
+\end{multicols}
+\end{document}
+```
+
+
+###Conditional function
 ```
 \[
     X=
