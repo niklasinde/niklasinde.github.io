@@ -34,8 +34,30 @@ Set title to:
 \title{\today}
 ```
 So if you'r working on a project for a long time you don't have to update the date everyday.
-
-
+### Metricises
+```latex
+\begin{equation*}
+\begin{bmatrix}
+1 & x_{1,1} &x_{2,1}&x_{2,1&\\
+1 & x_{1,2} &x_{2,2}&x_{2,1&\\
+1 & x_{1,3} &x_{2,3}&x_{2,1&\\
+1 & x_{1,4} &x_{2,4}&x_{2,1&\\
+\end{bmatrix}\begin{bmatrix}
+\beta_0\\
+\beta_1\\
+\beta_2\\
+\beta_3
+\end{bmatrix}=
+\begin{bmatrix}
+\beta_0\\
+\beta_1\\
+\beta_2\\
+\beta_3
+\end{bmatrix}
+\end{equation*}
+```
+### Dots in matrices
+![Dots](latex/dots.png)
 ### <a name="code"></a>code
 ```latex
 \begin{lstlisting}[language = R]
