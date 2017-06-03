@@ -57,7 +57,7 @@ So if you'r working on a project for a long time you don't have to update the da
 \end{equation*}
 ```
 ### Dots in matrices
-![Dots](latex/dots.png)
+![Dots](https://niklasinde.github.io/latex/dots.png)
 ### <a name="code"></a>code
 ```latex
 \begin{lstlisting}[language = R]
