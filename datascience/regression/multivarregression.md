@@ -11,3 +11,8 @@
 Some mathe equations:
 
 $$\sum{x^2}$$
+
+
+We add the dummy variable to make the covariance matrix non singular.
+
+Check the lectures from your course linear and logistic regression on your computer.

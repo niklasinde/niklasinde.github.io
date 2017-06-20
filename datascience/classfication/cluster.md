@@ -19,6 +19,3 @@ Single Link
 min Distance (x_1,x_2)
 
 D
-
-
-Hleleof
