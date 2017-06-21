@@ -1,10 +1,14 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+
+
 ## Welcome to Niklas Page
 
 
 
 Let's go!
 
-[Regression website](regression/index.md)<br/>
+[Data Science](datascience/index.md)<br/>
+
 [Latex](latex/index.md)<br/>
 [Markdown](https://guides.github.com/features/mastering-markdown/)<br/>
 [Rcode](R/index.md)
@@ -13,31 +17,9 @@ Flask into Hireku --> search on youtube <br/>
 if Iamawesome==True:
   return("nice")
 ```
-l
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Stuff to do.
 
-```markdown
-Syntax highlighted code block
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+$\bullet$ Finish the [munta latex](https://www.sharelatex.com/project/592edbf359a8a3210557fb14).<br/>
+$\bullet$ Finish the data science exercise.<br/>
+$\bullet$ Economy
