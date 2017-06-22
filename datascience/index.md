@@ -8,7 +8,12 @@ The easiest way to learn is by doing some hard exercises.
 [Kaggle.com](https://kaggle.com) has alot of different examples in both classification and regression.
 
 Here are the variates of data science ive got so far.
-[Classification](classfication/index.md) is when you try to divide your data in to groups. 
+[Classification](classfication/index.md) is when you try to divide your data in to groups.
 
 ### Regression
 [Regression](regression/index.md)<br/>
+
+
+
+### Statistics
+[Statistics](statistics/index.md)

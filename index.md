@@ -20,6 +20,6 @@ if Iamawesome==True:
 
 Stuff to do.
 
-$\bullet$ Finish the [munta latex](https://www.sharelatex.com/project/592edbf359a8a3210557fb14).<br/>
-$\bullet$ Finish the data science exercise.<br/>
-$\bullet$ Economy
+* Finish the [munta latex](https://www.sharelatex.com/project/592edbf359a8a3210557fb14).<br/>
+* Finish the data science exercise.<br/>
+* Economy

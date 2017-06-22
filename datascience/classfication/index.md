@@ -12,10 +12,11 @@ So in simple linear regression we just ask the line to be in the center of the d
 
 In logistic regression we ask to approximate the $\lambda$
 
-[Logistic Regression](regression/Logisticregression.md) (also refed to as a binomial regression with log it link function)<br>
+[Cluster](regression/Logisticregression.md) (also refed to as a binomial regression with log it link function)<br>
 [Multivariable Regression](regression/multivarregression.md)<br>
 [Poisson Regression](regression/poisson.md)<br>
 [Tree regression](http://www.di.fc.ul.pt/~jpn/r/tree/tree.html) Link to another website
+[Neural networks](neural.md)
 
 regression/poisson.md
 

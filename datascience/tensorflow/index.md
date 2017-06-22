@@ -6,6 +6,7 @@ import tensorflow as tf
 
 ## How to set up a tensorflow code.
 
+Want to
 
 Because tensorflow is mostly written in C++ for an increase of speed and for the addvatage that C++ is "closer" to the hardward we have to think of tensorflow code a bit different.<br></br>
 Learn by doing:
@@ -22,6 +23,11 @@ If we think of an ordinairy function in python we have:
 ```python
 
 ```
+  w = {"w0":tf.Variable(tf.random_normal([input_size, n_nodes_hl3],stddev=1),name="w1"),
+       "w1":tf.Variable(tf.random_normal([input_size, n_nodes_hl4],stddev=3),name="w1"),
+        "w2" :tf.Variable(tf.random_normal([n_nodes_hl4, n_nodes_hl5],stddev=2),name="w2"),
+        "w3":tf.Variable(tf.random_normal([n_nodes_hl5, n_nodes_hl6],stddev=1),name="w3"),
+        "w4":tf.Variable(tf.random_normal([n_nodes_hl6, n_classes],stddev=1),name="w4_out")}
 
 
 
