@@ -17,9 +17,6 @@ In logistic regression we ask to approximate the $\lambda$
 [Poisson Regression](poisson.md)<br>
 [Tree regression](http://www.di.fc.ul.pt/~jpn/r/tree/tree.html) Link to another website
 
-regression/poisson.md
-
-association rule learning https://en.wikipedia.org/wiki/Lift_(data_mining)
 
 
 <table class="wikitable" style="background:white;">
