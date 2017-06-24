@@ -16,4 +16,4 @@ Here are the variates of data science ive got so far.
 
 
 ### Statistics
-[Statistics](statistics/index.md)
+[Statistics](statistics/)
