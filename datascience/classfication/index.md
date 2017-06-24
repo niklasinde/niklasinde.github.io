@@ -1,22 +1,19 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
-
-
 ## Welcome to Regression
 
 
 To begin we need to understand that the different distributions ask different questions.
 
-Simple linear regression and multivariable regression we ask to have the error (or the residuals) to normally distrubuted with $$\sum{x^2}$$.<br/>
+Simple linear regression and multivariable regression we ask to have the error (or the residuals) to normally distrubuted with $N(0,\sigma^2)$.<br/>
 So in simple linear regression we just ask the line to be in the center of the data. And in multivariable linear regression we just span this thought to higher dimensions.
 
 In logistic regression we ask to approximate the $\lambda$
 
-[Cluster](regression/Logisticregression.md) (also refed to as a binomial regression with log it link function)<br>
+[Logistic Regression](regression/Logisticregression.md) (also refed to as a binomial regression with log it link function)<br>
 [Multivariable Regression](regression/multivarregression.md)<br>
 [Poisson Regression](regression/poisson.md)<br>
 [Tree regression](http://www.di.fc.ul.pt/~jpn/r/tree/tree.html) Link to another website
-[Neural networks](neural.md)
 
 regression/poisson.md
 
