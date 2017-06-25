@@ -3,8 +3,8 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-cayman-theme"
   spec.version       = "0.1.0"
-  spec.authors       = ["Pietro F. Menna"]
-  spec.email         = ["pietromenna@yahoo.com"]
+  spec.authors       = ["Niklas Inde"]
+  spec.email         = ["niklasinde@gmail.com"]
 
   spec.summary       = %q{A Jekyll theme for the responsive theme for GitHub Pages http://jasonlong.github.io/cayman-theme/ }
   spec.homepage      = "https://github.com/pietromenna/jekyll-cayman-theme"
