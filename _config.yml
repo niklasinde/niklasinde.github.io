@@ -1,7 +1,7 @@
 # Setup
 title:        Niklas Inde
 tagline:      Everything i may or may not need in the future
-baseurl:      "https://niklasinde.github.io"
+baseurl:      https://niklasinde.github.io
 paginate:     1
 
 # About/contact

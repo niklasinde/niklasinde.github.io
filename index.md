@@ -7,11 +7,11 @@
 
 Let's go!
 
-[Data Science](datascience/index.md)<br/>
+[Data Science](datascience/)<br/>
 
-[Latex](latex/index.md)<br/>
+[Latex](latex/)<br/>
 [Markdown](https://guides.github.com/features/mastering-markdown/)<br/>
-[Rcode](R/index.md)
+[Rcode](R/)
 Flask into Hireku --> search on youtube <br/>
 ```python
 if Iamawesome==True:
