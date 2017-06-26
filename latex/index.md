@@ -20,6 +20,10 @@ Nice simple snippets.<br/>
 ```latex
 \noindent
 ```
+or
+```latex
+\setlength\parindent{0pt}
+```
 ## legend
 ```latex
 legend(c("bottomright"),legend=c("Group1","Group2","Group3"),lwd=c(2.5,2.5),col=c("red","green","blue"))
@@ -34,30 +38,8 @@ Set title to:
 \title{\today}
 ```
 So if you'r working on a project for a long time you don't have to update the date everyday.
-### Metricises
-```latex
-\begin{equation*}
-\begin{bmatrix}
-1 & x_{1,1} &x_{2,1}&x_{2,1&\\
-1 & x_{1,2} &x_{2,2}&x_{2,1&\\
-1 & x_{1,3} &x_{2,3}&x_{2,1&\\
-1 & x_{1,4} &x_{2,4}&x_{2,1&\\
-\end{bmatrix}\begin{bmatrix}
-\beta_0\\
-\beta_1\\
-\beta_2\\
-\beta_3
-\end{bmatrix}=
-\begin{bmatrix}
-\beta_0\\
-\beta_1\\
-\beta_2\\
-\beta_3
-\end{bmatrix}
-\end{equation*}
-```
-### Dots in matrices
-![Dots](https://niklasinde.github.io/latex/dots.png)
+
+
 ### <a name="code"></a>code
 ```latex
 \begin{lstlisting}[language = R]
@@ -77,32 +59,8 @@ Really nice way to include code in you latex document
 \includegraphics[scale= 0.5]{filename}
 \end{figure}
 ```
-### Multicolums
+Conditional function
 ```latex
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
-
-\usepackage{multicol}
-\setlength{\columnsep}{1cm}
-
-\begin{document}
-\begin{multicols}{2}
-[
-\section{First Section}
-All human things are subject to decay. And when fate summons, Monarchs must obey.
-]
-Hello, here is some text without a meaning.  This text should show what
-a printed text will look like at this place.
-If you read this text, you will get no information.  Really?  Is there
-no information?  Is there...
-\end{multicols}
-\end{document}
-```
-
-
-###Conditional function
-```
 \[
     X=
 \begin{cases}

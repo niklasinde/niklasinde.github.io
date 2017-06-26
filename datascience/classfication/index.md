@@ -5,8 +5,6 @@
 To begin we need to understand that the different distributions ask different questions.
 
 Simple linear regression and multivariable regression we ask to have the error (or the residuals) to normally distributed with \\( N(0,\sigma^2) \\).<br/>
-\\[ x^2 \\]
-\\[ \sigma^{2} \\]
 So in simple linear regression we just ask the line to be in the center of the data. And in multivariable linear regression we just span this thought to higher dimensions.
 
 In logistic regression we ask to approximate the $\lambda$
