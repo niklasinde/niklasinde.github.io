@@ -9,7 +9,7 @@ If we start by looking a the simplest examples of a ANN: inputs with no hidden l
 
 We get:
 
-\\[ \begin{equation*}
+\\[ \begin{equation}
 \begin{bmatrix}
 x_{1} \\
 x_{2} \\
@@ -18,7 +18,7 @@ x_{3}
 w_{1}& w_{2}& w_{3}
 \end{bmatrix}=
 x_{1} w_{1}+x_{2} w_{2}+x_{3} w_{3}
-\end{equation*} \\]
+\end{equation} \\]
 
 So here we see that we get the same equation as a multivariable linear regression.
 

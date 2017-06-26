@@ -1,14 +1,13 @@
-# Different functions in the tensorflow package
-´´´python
+# Tensorflow
+```python
 import tensorflow as tf
-´´´
+```
 
 
 ## How to set up a tensorflow code.
 
-Want to
+Because tensorflow is mostly written in C++ for an increase of speed and for the addvatage that C++ is "closer" to the hardward we have to think of tensorflow code a bit different.
 
-Because tensorflow is mostly written in C++ for an increase of speed and for the addvatage that C++ is "closer" to the hardward we have to think of tensorflow code a bit different.<br></br>
 Learn by doing:
 
 Start with the input and output variables x and y:
@@ -31,7 +30,7 @@ You will see later that we use these placeholders to feed the inputs to the neur
 ### Weights
 To create the weights in tensorflow we can use different types of structures like list or dict.
 
-As seen in the [Netural Networks page][neuralnet.md] the weights are structured as matrices with shape (size layer i,size layer i+1).
+As seen in the [Netural Networks page](neuralnet.md) the weights are structured as matrices with shape (size layer i,size layer i+1).
 So in this example we have a neuralnet with size
 ```python
   w = {"w0":tf.Variable(tf.random_normal([input_size, n_nodes_hl3],stddev=1),name="w1"),
