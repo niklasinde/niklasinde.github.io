@@ -10,13 +10,13 @@ If we start by looking a the simplest examples of a ANN: inputs with no hidden l
 We get:
 
 \\[ \begin{equation}
-\begin{bmatrix}
+\begin{Bmatrix}
 x_{1} \\
 x_{2} \\
 x_{3}
-\end{bmatrix}\begin{bmatrix}
+\end{bmatrix}\begin{Bmatrix}
 w_{1}& w_{2}& w_{3}
-\end{bmatrix}=
+\end{Bmatrix}=
 x_{1} w_{1}+x_{2} w_{2}+x_{3} w_{3}
 \end{equation} \\]
 
