@@ -14,7 +14,7 @@ We get:
 x_{1} \\
 x_{2} \\
 x_{3}
-\end{bmatrix}\begin{Bmatrix}
+\end{Bmatrix}\begin{Bmatrix}
 w_{1}& w_{2}& w_{3}
 \end{Bmatrix}=
 x_{1} w_{1}+x_{2} w_{2}+x_{3} w_{3}

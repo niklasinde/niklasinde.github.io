@@ -32,15 +32,16 @@ legend(c("bottomright"),legend=c("Group1","Group2","Group3"),lwd=c(2.5,2.5),col=
 ```latex
 \sim
 ```
-### <a name="today"></a>\today
+## Today <a name="today"></a>
 Set title to:
 ```latex
 \title{\today}
 ```
 So if you'r working on a project for a long time you don't have to update the date everyday.
 
+### Matrix <a name"matrix"></a>
 
-### <a name="code"></a>code
+### Code <a name="code"></a>code
 ```latex
 \begin{lstlisting}[language = R]
 [1] "mean error test:" "1.46934685949842"
@@ -88,5 +89,4 @@ Arrows $\leftarrow \rightarrow$
 ```latex
 \rightarrow
 \leftarrow
-
 ```
