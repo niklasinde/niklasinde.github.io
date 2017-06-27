@@ -22,7 +22,7 @@ x_{1} w_{1}+x_{2} w_{2}+x_{3} w_{3}
 
 So here we see that we get the same equation as a multivariable linear regression.
 
-
+\\[\begin{bmatrix}a & b\\c & d\end{bmatrix}\\]
 
 
 
