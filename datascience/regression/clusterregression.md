@@ -17,3 +17,9 @@ If we have the same amount of clusters as the numvber og variables the equal to 
 We want to stop when the variance stops decling steply.
 Single Link
 min Distance (x_1,x_2)
+
+
+
+https://niklasinde.github.io/datascience/tensorflow/neuralregression.png
+
+https://niklasinde.github.io/datascience/tensorflow/neuralregression.png
