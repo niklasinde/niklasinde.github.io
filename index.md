@@ -7,6 +7,12 @@
 Let's go!
 
 [Data Science](datascience/)<br/>
+  [Tensorflow](datascience/tensorflow/)
+  [Regression](datascience/regression/)
+  [Classification](datascience/classfication/)
+
+
+
 
 [Latex](latex/)<br/>
 [Markdown](https://guides.github.com/features/mastering-markdown/)<br/>
