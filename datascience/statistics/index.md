@@ -2,11 +2,7 @@
 ## Welcome to the Statistics page.
 
 ### Random variable:
-<<<<<<< HEAD
 This is kinda unedited and not that well written but you get the point.
-=======
->>>>>>> origin/master
-
 A Random variable is not a variable it is a function.
 
 If we think of X as a "random function" instead we can think of the notation for a regular function f(x). And then think of a random variable as X(x). "F as a function of x or X as a function of x".
