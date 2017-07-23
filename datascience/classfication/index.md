@@ -18,6 +18,7 @@ regression/poisson.md
 
 association rule learning https://en.wikipedia.org/wiki/Lift_(data_mining)
 
+[]
 
 <table class="wikitable" style="background:white;">
 <caption>Common distributions with typical uses and canonical link functions</caption>

@@ -49,15 +49,12 @@ Question how many features do you think exists in the data you are trying to pre
 
 
 
-
-
-
-
+Should we use \\[ x, x^2 \\] and so when doing data analysis?
 
 
 Make a much more shallow network.
 
 Search gradient loss in each additional layer of the network.
-
+https://stats.stackexchange.com/questions/115258/comprehensive-list-of-activation-functions-in-neural-networks-with-pros-cons
 
 http://cs231n.github.io/neural-networks-1/
