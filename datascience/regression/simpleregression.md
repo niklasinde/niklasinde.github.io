@@ -137,10 +137,10 @@ So \\(\beta\\) is normally distributed because \\(y_i\\) is a sample from a norm
 
 \\[ E(\beta)=E\left(\frac{\sum(x_i-\bar{x})y_i}{S_{xx}}\right)
 \\]
-\\[ =E\left(\frac{\sum(x_i-\bar{x})y_i}{S_{xx}}\right)
+\\[ =E\left(\frac{\sum(x_i-\bar{x})\alpha+\beta x_i}{S_{xx}}\right)
 \\]
 
-\\[ =E\left(\frac{\sum(x_i-\bar{x})y_i}{S_{xx}}\right)
+\\[ =E\left(\frac{\sum(x_i-\bar{x})\alpha+\beta x_i}{S_{xx}}\right)
 \\]
 
 
