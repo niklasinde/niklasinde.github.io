@@ -114,17 +114,28 @@ We know that \\(\sum{(x_i-\bar{x})}\\) and:
 \\[= \frac{\sum(x_i-\bar{x})y_i-\sum(x_i-\bar{x})\bar{y})}{S_{xx}}
 \\]
 
-\\[
+\\[=
 \frac{\sum(x_i-\bar{x})y_i-\bar{y}\sum(x_i-\bar{x})}{S_{xx}}
 \\]
 
-\\[
-\frac{\sum(x_i-\bar{x})y_i-\bar{y}\sum(x_i-\bar{x})}{S_{xx}}
+\\[=
+\frac{\sum(x_i-\bar{x})y_i}{S_{xx}}
+\\]
+So \\(\beta\\) is normally distributed because \\(y_i\\) is a sample from a normal distribution.
+
+\\[Var(\beta)=Var(\frac{\sum(x_i-\bar{x})y_i}{S_{xx}})
 \\]
 
-So \\(\beta is normally distributed because y_i is a sample from a normal distribution.\\)
+So \\(\beta\\) is normally distributed because \\(y_i\\) is a sample from a normal distribution.
 
 If we do the same thing for \\( \alpha \\)
+
+\\[ \alpha = y_i - \beta x_i \\]
+
+\\[ \alpha = \bar{y} - \frac{\sum(x_i-\bar{x})y_i}{S_{xx}}\bar{x}\\]
+
+
+
 
 
 Kolla boken och kolla share latex 1.2.4.
