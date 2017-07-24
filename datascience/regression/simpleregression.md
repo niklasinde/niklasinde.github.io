@@ -126,6 +126,11 @@ So \\(\beta\\) is normally distributed because \\(y_i\\) is a sample from a norm
 \\[Var(\beta)=Var(\frac{\sum(x_i-\bar{x})y_i}{S_{xx}})
 \\]
 
+\\[Var(\beta)=\frac{1}{S_{xx}^2}Var(\sum(x_i-\bar{x})y_i})
+\\]
+\\[Var(\beta)=\frac{S_{xx}}{S_{xx}^2}Var(\sum{y_i})
+\\]
+
 So \\(\beta\\) is normally distributed because \\(y_i\\) is a sample from a normal distribution.
 
 If we do the same thing for \\( \alpha \\)
