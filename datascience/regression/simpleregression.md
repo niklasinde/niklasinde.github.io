@@ -132,8 +132,18 @@ So \\(\beta\\) is normally distributed because \\(y_i\\) is a sample from a norm
 \\]
 \\[ Var(\beta)=\frac{S_{xx}}{S_{xx}^2}Var\left(\sum{y_i}\right)
 \\]
-\\[ E(\beta)=\frac{\sum(x_i-\bar{x})y_i}{S_{xx}}
+\\[ Var(\beta)=\frac{n\sigma^2 S_{xx}}{S_{xx}^2}
 \\]
+
+\\[ E(\beta)=E\left(\frac{\sum(x_i-\bar{x})y_i}{S_{xx}}\right)
+\\]
+\\[ =E\left(\frac{\sum(x_i-\bar{x})y_i}{S_{xx}}\right)
+\\]
+
+\\[ =E\left(\frac{\sum(x_i-\bar{x})y_i}{S_{xx}}\right)
+\\]
+
+
 
 So \\(\beta\\) is normally distributed because \\(y_i\\) is a sample from a normal distribution.
 
