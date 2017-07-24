@@ -140,11 +140,17 @@ So \\(\beta\\) is normally distributed because \\(y_i\\) is a sample from a norm
 \\[ =E\left(\frac{\sum(x_i-\bar{x})\alpha+\beta x_i}{S_{xx}}\right)
 \\]
 
-\\[ =E\left(\frac{\sum(x_i-\bar{x})\alpha+\beta x_i}{S_{xx}}\right)
+\\[ =E\left(\frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{S_{xx}}\right)
 \\]
 
-
-
+\\[ =E\left(\frac{\sum(x_i-\bar{x})(\alpha+\beta x_i-\alpha+\beta \bar{x})}{S_{xx}}\right)
+\\]
+\\[ =E\left(\frac{\sum(x_i-\bar{x})(\beta x_i-\beta \bar{x})}{S_{xx}}\right)
+\\]
+\\[ =E\left(\beta\frac{\sum(x_i-\bar{x})(x_i- \bar{x})}{S_{xx}}\right)
+\\]
+\\[ =\beta
+\\]
 So \\(\beta\\) is normally distributed because \\(y_i\\) is a sample from a normal distribution.
 
 If we do the same thing for \\( \alpha \\)
