@@ -40,7 +40,7 @@ So instead we try to draw a line the fits the dots as good as possible. The nume
 where \\(y_i\\) is the true value and \\(\hat{y}_i\\) is the predicted value or the y value one predicted line for the specified \\(x_i\\)
 
 The numerical proof of this is the following:
-
+This example is taken from a great video from khan academy [link](https://www.khanacademy.org/math/linear-algebra/alternate-bases/orthogonal-projections/v/linear-algebra-least-squares-approximation)
 From the matrix equation above we have \\(X\beta=Y\\). This equation doesn't have a solution so the next best thing is to use
 \\[X\hat{\beta} = Y\\] where \\(\hat{\beta}\\) is the coefficients for the least square solutions.
 
@@ -56,7 +56,7 @@ or to make the picture more clear:
 If we take -Y on both sides we get \\[X\beta-Y=\text{proj}_{Y}C(X)-Y\\]
 We see that $$\text{proj}_{Y}C(X)-Y \in C(A)^{\bot}$$.
 \newline
-And we know that the complement of the column space is the nullspace of the $A$. (The compliment of the span of the column vectors is the null space of A)
+And we know that the complement of the column space is the null space of the $A$. (The compliment of the span of the column vectors is the null space of A)
 \\[Col(A)^\bot = Null(A)$$
 so the complement of the row space is (solution space of A is the col(A))
 \\[row(A)^\bot=N(A^T)$$ or the null space of the transpose of A.
@@ -66,6 +66,74 @@ So we get:
 \\[X^TX\beta-X^TY=\bar{0}\\]
 \\[X^TX\beta=X^TY$$
 \\[\beta=(X^TX)^{-1}X^{T}Y\\]
+
+
+This is was the easy way.
+
+## The statistical way
+The statistical way is a bit more confusing but more mathematical correct. From my point of view the numerical way just calculates the best line but in statistics they explane why.
+
+So the statistical point of view is that \\(Y_i\\) is a [random variable](datascience/statistics/index.md) (check this link always) with distribution \\(Y_i \sim N(\alpha+\beta x_i,\sigma^2) \\). Let this sink in. We assume that for a given \\(x_i\\) we get a random variable \\(Y_i\\. A random variable. Okey.
+
+Another way to write this is \\( y_i = \alpha + \beta x_i + \epsilon \\) where \\(\epsilon \sim N(0,\sigma^2)\\) is the error term.
+
+Note here that the Y is a capital letter and the x is small. This is because Y is a random variable and x is a data point.
+
+Okey now we know this.
+
+### How do we find the best line?
+
+We want to minimize \\( \epsilon \\) or in stastiscal words make the \\(\sigma^2\\) smaller. (if \\(\sigma\\) = 0 then we have a perfect line)
+
+So \\( \epsilon \sim N(0,\simga^2) \\) how do we find the perfect line jo när \\((y_i-\hat{y}_i)^2\\) is small
+
+
+bla bla
+
+
+\\(S_{xx} = \sum (x_i-\bar{x})^2\\)
+\\(S_{xy} = \sum (x_i-\bar{x})(y_i-\bar{y})\\)
+
+
+\\(\beta = \frac{S_{xy}}{S_{xx}}\\)
+\\(\alpha = \bar{y}-\beta\bar{x}\\)
+
+
+
+# Overkill
+
+### What is the distributions of \\(\alpha \text{and} \beta\\)?
+
+\\(\alpha = \bar{y}-\frac{S_{xy}}{S_{xx}}\bar{x}\\)
+
+Why is \\(\alpha \text{and} \beta\\) normally distributed?
+
+Kolla boken och kolla share latex 1.2.4.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### How to we find the best line
+
+
+
+
+
+
+
 
 
 
