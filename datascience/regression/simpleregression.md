@@ -130,6 +130,8 @@ So \\(\beta\\) is normally distributed because \\(y_i\\) is a sample from a norm
 \\]
 \\[Var(\beta)=\frac{S_{xx}}{S_{xx}^2}Var(\sum{y_i})
 \\]
+\\[E(\beta)=\frac{\sum(x_i-\bar{x})y_i}{S_{xx}}
+\\]
 
 So \\(\beta\\) is normally distributed because \\(y_i\\) is a sample from a normal distribution.
 
@@ -145,6 +147,8 @@ If we do the same thing for \\( \alpha \\)
 \\[ Var(\alpha) =  \\]
 
 \\[ E(\alpha) =  \\]
+
+
 
 Kolla boken och kolla share latex 1.2.4.
 
