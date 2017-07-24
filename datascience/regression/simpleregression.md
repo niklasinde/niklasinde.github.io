@@ -134,9 +134,12 @@ If we do the same thing for \\( \alpha \\)
 
 \\[ \alpha = \bar{y} - \frac{\sum(x_i-\bar{x})y_i}{S_{xx}}\bar{x}\\]
 
+\\[ \alpha = \bar{y} - \frac{\sum(x_i-\bar{x})y_i}{S_{xx}}\bar{x}\\]
 
 
+\\[ Var(\alpha) =  \\]
 
+\\[ E(\alpha) =  \\]
 
 Kolla boken och kolla share latex 1.2.4.
 
