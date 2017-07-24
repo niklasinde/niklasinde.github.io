@@ -16,7 +16,9 @@ If we try to figure out how to get this line we get a system of linear equation 
 
 
 We can rewrite this as a matrix:
-\\[\begin{bmatrix}
+\\[
+\begin{equation}
+\begin{bmatrix}
 1 & x_{1} \\\\
 1 & x_{2} \\\\
 1 & x_{3} \\\\
@@ -31,7 +33,9 @@ y_1\\\\
 y_2\\\\
 y_3\\\\
 \vdots
-\end{bmatrix}\\]
+\end{bmatrix}
+\end{equation}
+\\]
 As we see in the picture above so does not this equation have a solution. (If it did it all the dots would have to be lined up perfectly).
 
 So instead we try to draw a line the fits the dots as good as possible. The numerical name for simple linear regression is "least squares" which means that you try to minimize \\(\sum(\hat{y_{i}}-y_i)\\)
