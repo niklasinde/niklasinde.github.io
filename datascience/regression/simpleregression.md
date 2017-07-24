@@ -16,12 +16,12 @@ If we try to figure out how to get this line we get a system of linear equation 
 
 
 We can rewrite this as a matrix:
-
+\\[
 \begin{bmatrix}
-1 & x_{1}\\\\
-1 & x_{2}\\\\
-1 & x_{3}\\\\
-1 & x_{4}\\\\
+1 & x_{1} \\\\
+1 & x_{2} \\\\
+1 & x_{3} \\\\
+1 & x_{4} \\\\
 \vdots &\vdots
 \end{bmatrix}\begin{bmatrix}
 \alpha\\\\
@@ -33,7 +33,7 @@ y_2\\\\
 y_3\\\\
 \vdots
 \end{bmatrix}
-
+\\]
 As we see in the picture above so does not this equation have a solution. (If it did it all the dots would have to be lined up perfectly).
 
 So instead we try to draw a line the fits the dots as good as possible. The numerical name for simple linear regression is "least squares" which means that you try to minimize \\(\sum(\hat{y_{i}}-y_i)\\)
@@ -44,15 +44,28 @@ The numerical proof of this is the following:
 From the matrix equation above we have \\(X\beta=Y\\). This equation doesn't have a solution so the next best thing is to use
 \\[X\hat{\beta} = Y\\] where \\(\hat{\beta}\\) is the coefficients for the least square solutions.
 
-A side note is that we use \\(\hat{beta}\\) to be extra clear, in general they are the same thing.)
+A side note is that we use \\(\hat{\beta}\\) to be extra clear, in general they are the same thing.)
 
-If we look at the picture below we see the purple plane. This is the solution space of A or X in our case. This means the space where X has a solution for given \\(\beta\\). As mentioned before our equation does not have a solution but the next best thing is projection of hour
- \\[X\hat{\beta}=\text{proj}_{Y}C(X)\\]
-
- where C(A) is the solution space (row space) of A.
-
+If we look at the picture below we see the purple plane. This is the solution space of A or X in our case. This means the space where X has a solution for given \\(\beta\\). As mentioned before our equation does not have a solution but the next best thing is projection of y on the solution space.
+We get that:
+\\[X\hat{\beta}=\text{proj}_{Y}C(X)\\]
+or to make the picture more clear:
+\\[X\hat{\beta}=\bar{v}=\text{proj}_{Y}C(X)\\]
 ![linear regression pic](leastproof.png)
 
+If we take -Y on both sides we get \\[X\beta-Y=\text{proj}_{Y}C(X)-Y\\]
+We see that $$\text{proj}_{Y}C(X)-Y \in C(A)^{\bot}$$.
+\newline
+And we know that the complement of the column space is the nullspace of the $A$. (The compliment of the span of the column vectors is the null space of A)
+\\[Col(A)^\bot = Null(A)$$
+so the complement of the row space is (solution space of A is the col(A))
+\\[row(A)^\bot=N(A^T)$$ or the null space of the transpose of A.
+\newline
+So we get:
+\\[X^T(X\beta-Y)=\bar{0}\\]
+\\[X^TX\beta-X^TY=\bar{0}\\]
+\\[X^TX\beta=X^TY$$
+\\[\beta=(X^TX)^{-1}X^{T}Y\\]
 
 
 
