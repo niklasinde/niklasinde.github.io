@@ -103,7 +103,19 @@ bla bla
 
 Why is \\(\alpha \text{and} \beta\\) normally distributed?
 
+We know that \\(\sum{(x_i-\bar{x})}\\) and:
+\\[\beta = \frac{S_{xy}}{S_{xx}}]\\)
+\\[= \frac{\sum(x_i-\bar{x})(y_i-\bar{y})}{S_{xx}}\\]
+\\[= \frac{\sum(x_i-\bar{x})y_i-\sum(x_i-\bar{x})\bar{y})}{S_{xx}}\\]
+\frac{\sum(x_i-\bar{x})y_i-\bar{y}\sum(x_i-\bar{x})}{S_{xx}}\\]
+\frac{\sum(x_i-\bar{x})y_i-\bar{y}\sum(x_i-\bar{x})}{S_{xx}}\\]
+
+So 
+
+
 Kolla boken och kolla share latex 1.2.4.
+
+
 
 
 

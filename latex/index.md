@@ -1,4 +1,3 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
 
 
 # How to write latex:
@@ -6,7 +5,15 @@
 
 First go to [sharelatex.com](sharelatex.com). Create an account and start doing yo thang.<br/>
 ### Do not download the thing to your computer. Nightmare.
-
+### Quick mathjax syntax for markdown.
+Inside text
+```markdown
+\\(\\)
+```
+Free center piece
+```markdown
+\\[\\]
+```
 Nice simple snippets.<br/>
 
 ## Index
@@ -52,7 +59,7 @@ So if you'r working on a project for a long time you don't have to update the da
 ```
 Really nice way to include code in you latex document
 
-### <a name="img"></a>Include images
+### <a name="img">netInclude images</a>
 ```latex
 \begin{figure}[H]
 \centering
@@ -70,7 +77,7 @@ Conditional function
 \end{cases}
 \]
 ```
-Tabels
+### Tabels
 ```latex
 \begin{table}[H]
 \centering
@@ -85,7 +92,9 @@ Tabels
 ```
 Note: change the number of "l" to the number of columns in your table.
 
-Arrows $\leftarrow \rightarrow$
+
+
+### Arrows \\(leftarrow \rightarrow\\)
 ```latex
 \rightarrow
 \leftarrow

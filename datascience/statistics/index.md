@@ -28,6 +28,5 @@ This is just a somewhat complicated notation.
 
 Another notation for this is \\( P_{X}(x) = P(X \leq x) \\). This is a better notation.
 If we think of the notation \\(f(x)\\). This is the same thing.
->>>>>>> origin/master
 
 So with this in the back of your head.
