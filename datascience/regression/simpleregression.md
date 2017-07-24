@@ -19,20 +19,11 @@ We can rewrite this as a matrix:
 \\[
 \begin{equation}
 \begin{bmatrix}
-1 & x_{1} \\\\
-1 & x_{2} \\\\
-1 & x_{3} \\\\
-1 & x_{4} \\\\
-\vdots &\vdots
+1 & x_{1} \\\\ 1 & x_{2} \\\\ 1 & x_{3} \\\\ 1 & x_{4} \\\\ \vdots &\vdots
 \end{bmatrix}\begin{bmatrix}
-\alpha\\\\
-\beta\\\\
+\alpha \\\\ \beta \\\\
 \end{bmatrix}=\begin{bmatrix}
-y_0\\\\
-y_1\\\\
-y_2\\\\
-y_3\\\\
-\vdots
+y_0\\\\ y_1\\\\ y_2\\\\ y_3\\\\y_4 \vdots
 \end{bmatrix}
 \end{equation}
 \\]
@@ -56,10 +47,10 @@ or to make the picture more clear:
 ![linear regression pic](leastproof.png)
 
 If we take -Y on both sides we get \\[X\beta-Y=\text{proj}_{Y}C(X)-Y\\]
-We see that $$\text{proj}_{Y}C(X)-Y \in C(A)^{\bot}$$.
+We see that \\(text{proj}_{Y}C(X)-Y \in C(A)^{\bot}\\).
 \newline
-And we know that the complement of the column space is the null space of the $A$. (The compliment of the span of the column vectors is the null space of A)
-\\[Col(A)^\bot = Null(A)$$
+And we know that the complement of the column space is the null space of the \\(A\\). (The compliment of the span of the column vectors is the null space of A)
+\\[Col(A)^\bot = Null(A)\\]
 so the complement of the row space is (solution space of A is the col(A))
 \\[row(A)^\bot=N(A^T)\\] or the null space of the transpose of A.
 \newline
@@ -87,7 +78,7 @@ Okey now we know this.
 
 We want to minimize \\( \epsilon \\) or in stastiscal words make the \\(\sigma^2\\) smaller. (if \\(\sigma\\) = 0 then we have a perfect line)
 
-So \\( \epsilon \sim N(0,\simga^2) \\) how do we find the perfect line jo när \\((y_i-\hat{y}_i)^2\\) is small
+So \\( \epsilon \sim N(0,\sigma^2) \\) how do we find the perfect line jo när \\((y_i-\hat{y}_i)^2\\) is small
 
 
 bla bla
@@ -104,7 +95,8 @@ bla bla
 
 # Overkill
 
-### What is the distributions of \\(\alpha \text{and} \beta\\)?
+### What is the distributions of alpha and beta
+\\(\alpha \text{ and } \beta\\)?
 
 \\(\alpha = \bar{y}-\frac{S_{xy}}{S_{xx}}\bar{x}\\)
 
