@@ -23,8 +23,8 @@ We can rewrite this as a matrix:
 \end{bmatrix}\begin{bmatrix}
 \alpha \\\\ \beta \\\\
 \end{bmatrix}=\begin{bmatrix}
-y_1\\\\ y_2\\\\ 
-y_3\\\\y_4 \vdots
+y_1\\\\ y_2\\\\
+y_3\\\\y_4 \\\\ \vdots
 \end{bmatrix}
 \end{equation}
 \\]
