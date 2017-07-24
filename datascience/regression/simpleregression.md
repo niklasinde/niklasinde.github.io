@@ -97,6 +97,8 @@ bla bla
 # Overkill
 
 ### What is the distributions of alpha and beta
+
+
 \\(\alpha \text{ and } \beta\\)?
 
 \\(\alpha = \bar{y}-\frac{S_{xy}}{S_{xx}}\bar{x}\\)
@@ -123,12 +125,12 @@ We know that \\(\sum{(x_i-\bar{x})}\\) and:
 \\]
 So \\(\beta\\) is normally distributed because \\(y_i\\) is a sample from a normal distribution.
 
-\\[ Var(\beta)=Var(\frac{\sum(x_i-\bar{x})y_i}{S_{xx}})
+\\[ Var(\beta)=Var\left(\frac{\sum(x_i-\bar{x})y_i}{S_{xx}}\right)
 \\]
 
-\\[ Var(\beta)=\frac{1}{S_{xx}^2}Var(\sum(x_i-\bar{x})y_i)
+\\[ Var(\beta)=\frac{1}{S_{xx}^2}Var\left(\sum(x_i-\bar{x})y_i\right)
 \\]
-\\[ Var(\beta)=\frac{S_{xx}}{S_{xx}^2}Var(\sum{y_i})
+\\[ Var(\beta)=\frac{S_{xx}}{S_{xx}^2}Var\left(\sum{y_i}\right)
 \\]
 \\[ E(\beta)=\frac{\sum(x_i-\bar{x})y_i}{S_{xx}}
 \\]
