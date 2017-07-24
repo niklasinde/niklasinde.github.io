@@ -16,8 +16,7 @@ If we try to figure out how to get this line we get a system of linear equation 
 
 
 We can rewrite this as a matrix:
-\\[
-\begin{bmatrix}
+\\[\begin{bmatrix}
 1 & x_{1} \\\\
 1 & x_{2} \\\\
 1 & x_{3} \\\\
@@ -32,8 +31,7 @@ y_1\\\\
 y_2\\\\
 y_3\\\\
 \vdots
-\end{bmatrix}
-\\]
+\end{bmatrix}\\]
 As we see in the picture above so does not this equation have a solution. (If it did it all the dots would have to be lined up perfectly).
 
 So instead we try to draw a line the fits the dots as good as possible. The numerical name for simple linear regression is "least squares" which means that you try to minimize \\(\sum(\hat{y_{i}}-y_i)\\)
@@ -59,12 +57,12 @@ We see that $$\text{proj}_{Y}C(X)-Y \in C(A)^{\bot}$$.
 And we know that the complement of the column space is the null space of the $A$. (The compliment of the span of the column vectors is the null space of A)
 \\[Col(A)^\bot = Null(A)$$
 so the complement of the row space is (solution space of A is the col(A))
-\\[row(A)^\bot=N(A^T)$$ or the null space of the transpose of A.
+\\[row(A)^\bot=N(A^T)\\] or the null space of the transpose of A.
 \newline
 So we get:
 \\[X^T(X\beta-Y)=\bar{0}\\]
 \\[X^TX\beta-X^TY=\bar{0}\\]
-\\[X^TX\beta=X^TY$$
+\\[X^TX\beta=X^TY\\]
 \\[\beta=(X^TX)^{-1}X^{T}Y\\]
 
 
