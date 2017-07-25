@@ -155,7 +155,7 @@ So \\(\beta\\) is normally distributed because \\(y_i\\) is a sample from a norm
 
 If we do the same thing for \\( \alpha \\)
 
-\\[ \alpha = y_i - \beta x_i \\]
+\\[ \alpha = \bar{y} - \beta \bar{x} \\]
 
 \\[ \alpha = \bar{y} - \frac{\sum(x_i-\bar{x})y_i}{S_{xx}}\bar{x}\\]
 
