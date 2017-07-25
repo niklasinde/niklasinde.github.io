@@ -6,12 +6,14 @@
 To begin we need to understand that the different distributions ask different questions.
 
 Simple linear regression and multivariable regression we ask to have the error (or the residuals) to normally distributed with \\( N(0,\sigma^2) \\).<br/>
-So in simple linear regression we just ask the line to be in the center of the data. And in multivariable linear regression we just span this thought to higher dimensions.
+So in simple linear regression we just ask the line to be in the center of the data. And in multivariable linear regression we just span this thought to higher dimensions.<br>
 
-In logistic regression we ask to approximate the $\lambda$
-[Simple Linear regression](linearregression/)
-[Logistic Regression](Logisticregression.md) (also referred to as a binomial regression with log it link function)<br>
+[Simple Linear regression](linearregression/)<br>
 [Multivariable Regression](multivarregression.md)<br>
+
+In logistic regression we ask to approximate the \\(\lambda\\) in where instead of the \\(Y_i \sim N(\alpha+\beta x_i,\simga^2)\\), it has the distribution \\(Y_i \sim Pois(\lambda_i)\\), where \\(lambda_i\\) is something you can find in the link below.
+[Logistic Regression](Logisticregression.md) (also referred to as a binomial regression with log it link function)<br>
+
 [Poisson Regression](poisson.md)<br>
 [Tree regression](http://www.di.fc.ul.pt/~jpn/r/tree/tree.html) Link to another website
 

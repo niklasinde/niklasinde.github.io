@@ -9,10 +9,6 @@ Other subjects.
 
 ##Hello!
 
-
-
-
-
 Fist a simple linear regression is just \\(Y = \alpha + \beta X \\). Where you try to fit a linear line to find pattern i data.
 
 From a numerical mathematical stand point this is kinda simple but from a statistical stand point there is a lot of complicated terms that we need to get threw.

@@ -6,7 +6,7 @@ This is kinda unedited and not that well written but you get the point.
 A Random variable is not a variable it is a function.
 
 If we think of X as a "random function" instead we can think of the notation for a regular function f(x). And then think of a random variable as X(x). "F as a function of x or X as a function of x".
-<<<<<<< HEAD
+
 Let's say the random variable \\(X \sim N(0,1) \\).
 
 This means that the variable X have the density function:
@@ -29,4 +29,4 @@ This is just a somewhat complicated notation.
 Another notation for this is \\( P_{X}(x) = P(X \leq x) \\). This is a better notation.
 If we think of the notation \\(f(x)\\). This is the same thing.
 
-So with this in the back of your head.
+So with this in the back of your head. Continue on
