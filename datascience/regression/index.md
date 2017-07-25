@@ -9,7 +9,7 @@ Simple linear regression and multivariable regression we ask to have the error (
 So in simple linear regression we just ask the line to be in the center of the data. And in multivariable linear regression we just span this thought to higher dimensions.
 
 In logistic regression we ask to approximate the $\lambda$
-
+[Simple Linear regression](linearregression/)
 [Logistic Regression](Logisticregression.md) (also referred to as a binomial regression with log it link function)<br>
 [Multivariable Regression](multivarregression.md)<br>
 [Poisson Regression](poisson.md)<br>
