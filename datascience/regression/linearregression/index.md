@@ -17,7 +17,7 @@ We start by the numerical and "easy" way.
 
 If have some data points in two dimensions \\( (x_1,y_1),(x_2,y_2),...(x_n,y_n)\\). And we want to find a straight line that tries to go therw these points as good as possible like this:
 
-![linear regression pic](linear_regression_line.png)
+![linear regression pic](img/linear_regression_line.png)
 
 If we try to figure out how to get this line we get a system of linear equation (read matrix multiplication).
 
@@ -54,7 +54,7 @@ We get that:
 \\[X\hat{\beta}=\text{proj}_{Y}C(X)\\]
 or to make the picture more clear:
 \\[X\hat{\beta}=\bar{v}=\text{proj}_{Y}C(X)\\]
-![linear regression pic](leastproof.png)
+![linear regression pic](img/leastproof.png)
 
 If we take -Y on both sides we get \\[X\beta-Y=\text{proj}_{Y}C(X)-Y\\]
 We see that \\(text{proj}_{Y}C(X)-Y \in C(A)^{\bot}\\).

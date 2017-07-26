@@ -1,14 +1,3 @@
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [ ['\(','\)', ['\\(','\\)'] ]
-  }
-});
-MathJax.Hub.Config({
-  tex2jax: {
-    displaymath: [ ['\[','\]', ['\\[','\\]'] ]
-  }
-});
-
 
 ### The R function so you can try it.
 <code class="r">
@@ -24,6 +13,10 @@ $$ \begin{equation} \begin{bmatrix} x_{1} & x_{2} & x_{3} \end{bmatrix} \begin{b
 
 
 In this page we are going to talk about variance, covariance, anova table
+
+
+
+
 
 
 
