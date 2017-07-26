@@ -32,7 +32,7 @@ if Iamawesome==True:
 
 ### Questions that needs to be answered!
 ## Math
-* Should we use \\( x, x^2 )\\ and so when doing data analysis?
+* Should we use $ x, x^2 $ and so when doing data analysis?
 * What is the optimal way of calculating weights is there another way then gradient decent?
 * What statistical meaning does the different activation function have in a neural network?
 ## Programming

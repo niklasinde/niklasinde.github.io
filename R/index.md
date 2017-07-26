@@ -2,16 +2,9 @@
 
 
 ### Rcode snippets
-
-
-
-
-
-
-### <a name="Legend"></a>Add legend in plot
+# <a name="Legend"></a>Add legend in plot
 ```R
-legend("right", legend = c("Total","Sensitivity","Specificity"),
-        col=c("black","blue","red"), pch=16)
+legend(c("bottomright"),legend=c("Group1","Group2","Group3"),lwd=c(2.5,2.5),col=c("red","green","blue"))
 ```
 
 ### What colors are there?

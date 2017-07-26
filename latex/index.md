@@ -32,7 +32,7 @@ or
 \setlength\parindent{0pt}
 ```
 ## legend
-```latex
+```r
 legend(c("bottomright"),legend=c("Group1","Group2","Group3"),lwd=c(2.5,2.5),col=c("red","green","blue"))
 ```
 ## Distribution sign in latex
