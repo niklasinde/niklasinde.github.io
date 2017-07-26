@@ -13,7 +13,7 @@ the progress bar indicates how updated the pages are.
 <progress value="1" max="100"></progress>
 ## [Django](Django/)
 <progress value="0" max="100"></progress>
-## [Tensorflow](www.niklasinde.github.io/datascience/tensorflow/)
+## [Tensorflow](http://niklasinde.github.io/datascience/tensorflow/)
 <progress value="10" max="100"></progress>
 ## [R](R/)
 <progress value="4" max="100"></progress>
