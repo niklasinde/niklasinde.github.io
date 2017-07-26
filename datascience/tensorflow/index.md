@@ -49,6 +49,10 @@ w = [tf.Variable(tf.random_normal([input_size, n_nodes_hl3],stddev=1),name="w1")
      tf.Variable(tf.random_normal([n_nodes_hl5, n_nodes_hl6],stddev=1),name="w3"),
      tf.Variable(tf.random_normal([n_nodes_hl6, n_classes],stddev=1),name="w4_out")]
 ```
+
+
+
+
 ## random_normal
 Returns an array with N(0,1)(as standard) distributed array.
 ```python

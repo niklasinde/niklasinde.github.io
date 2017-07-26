@@ -1,5 +1,9 @@
 
 ## Welcome to the datascience page.
+<a href= "{{ site.url }}/classification/" class="btn">Data Science</a>
+<a href= "{{ site.url }}/datascience/regression/" class="btn">Tensorflow</a>
+<a href= "{{ site.url }}/code/" class="btn">Code snippets</a>
+
 
 The easiest way to learn is by doing some hard exercises.
 
