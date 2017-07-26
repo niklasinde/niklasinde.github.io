@@ -11,7 +11,8 @@ So in simple linear regression we just ask the line to be in the center of the d
 [Simple Linear regression](linearregression/)<br>
 [Multivariable Regression](multivarregression.md)<br>
 
-In logistic regression we ask to approximate the \\(\lambda\\) in where instead of the \\(Y_i \sim N(\alpha+\beta x_i,\simga^2)\\), it has the distribution \\(Y_i \sim Pois(\lambda_i)\\), where \\(lambda_i\\) is something you can find in the link below.<br>
+In logistic regression we ask to approximate the \\(\lambda\\) in where instead of the \\(Y_i \sim N(\alpha+\beta x_i,\sigma^2)\\), it has the distribution \\(Y_i \sim Pois(\lambda_i)\\), where \\(lambda_i\\) is something you can find in the link below.<br>
+
 [Logistic Regression](Logisticregression.md) (also referred to as a binomial regression with log it link function)<br>
 
 [Poisson Regression](poisson.md)<br>
