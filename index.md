@@ -12,6 +12,7 @@ Let's go!
   [Classification](datascience/classfication/)
 
 
+#[code snippet](code/)
 
 
 [Latex](latex/)<br/>

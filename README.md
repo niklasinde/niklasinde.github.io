@@ -2,4 +2,4 @@
 Everything i may or may not need in the future
 
 
-Alot of stuff to hopefully clarify the trash of a coding language R is. And help people understand that you can do everyting r does in python.
+A lot of stuff to hopefully need in the future. Main thing is data science notes and some coding snippets.
