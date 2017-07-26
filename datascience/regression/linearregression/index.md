@@ -1,13 +1,11 @@
+
+## Simple linear regression
+
 Below you will find a description of the linear regression.
 
 Other subjects.
 
 [Distributions and confidence intervals of estimates](estimates.md)
-
-[]
-
-
-##Hello!
 
 Fist a simple linear regression is just \\(Y = \alpha + \beta X \\). Where you try to fit a linear line to find pattern i data.
 
