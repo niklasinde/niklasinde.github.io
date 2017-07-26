@@ -42,5 +42,4 @@ if Iamawesome==True:
 This list last updated 22/7 04:41
 
 ## Completed questions:
-*
-*
+* 
