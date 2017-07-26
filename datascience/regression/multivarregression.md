@@ -1,11 +1,5 @@
 
 ### The R function so you can try it.
-<code class="r">
-    lm(glm)
-</code>
-
-
-Some mathe equations:
 
 First check out simple linear regression.
 
