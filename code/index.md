@@ -3,7 +3,7 @@
 # Here is some code snippets for the different language:
 the progress bar indicates how updated the pages are.
 
-##[Latex](latex/)
+## [Latex](latex/)
 <progress value="80" max="100"></progress>
 
 
