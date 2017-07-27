@@ -1,28 +1,11 @@
 
+<p align="center">
 
-## Welcome to Niklas Page
+# Welcome
 
-[github page](https://github.com/niklasinde)
+</p>
 
-Let's go!
-
-[Data Science](datascience/)<br/>
-  [Tensorflow](datascience/tensorflow/)
-  [Regression](datascience/regression/)
-  [Classification](datascience/classfication/)
-
-
-## [code snippets](code/)
-
-
-[Latex](latex/)<br/>
-[Markdown](https://guides.github.com/features/mastering-markdown/)<br/>
-[Rcode](R/)
-Flask into Hireku --> search on youtube <br/>
-```python
-if Iamawesome==True:
-  return("nice")
-```
+##Let's go!
 
 ### Stuff to do.
 
