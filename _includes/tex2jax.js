@@ -1,12 +1,12 @@
 <script>
 MathJax.Hub.Config({
   tex2jax: {
-    inlineMath: [ ['\(','\)', ['\\(','\\)'] ]
+    inlineMath: [ ['$','$', ['\\(','\\)'] ]
   }
 });
 MathJax.Hub.Config({
   tex2jax: {
-    displaymath: [ ['\[','\]', ['\\[','\\]'] ]
+    displaymath: [ ['$$','$$', ['\\[','\\]'] ]
   }
 });
 <\script>

@@ -43,10 +43,6 @@ $$=\beta +(X^TX)^{-1}X^T \epsilon$$
 We know that $\hat{\beta}-\beta \sim N(0,\sigma^2(X^TX)^{-1})$.
 
 
-
-
-
-
 We add the dummy variable to make the covariance matrix non singular.
 
 Check the lectures from your course linear and logistic regression on your computer.
