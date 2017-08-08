@@ -1,6 +1,12 @@
-
+---
+layout: default
+title: Every thing I may or may not need in the future
+---
 
 <h1 align="center">Welcome</h1>
+
+{{site.pages}}
+
 
 ## Let's go!
 

@@ -16,7 +16,7 @@ If we have the same amount of clusters as the numvber og variables the equal to 
 
 We want to stop when the variance stops decling steply.
 Single Link
-min Distance (x_1,x_2)
+min Distance ($x_1,x_2$)
 
 
 
