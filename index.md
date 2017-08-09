@@ -3,8 +3,6 @@ layout: default
 title: Every thing I may or may not need in the future
 ---
 
-{{ site.pages }}
-
 
 ## Let's go!
 
