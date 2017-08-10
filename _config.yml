@@ -5,7 +5,8 @@ baseurl:
 paginate:     1
 
 # About/contact
-author:       Niklas Inde
+author:
+  name:       Niklas Inde
   url:        https://niklasinde.github.io
 
 # Gems
