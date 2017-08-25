@@ -8,11 +8,11 @@ First go to [sharelatex.com](sharelatex.com). Create an account and start doing 
 ### Quick mathjax syntax for markdown.
 Inside text
 ```markdown
-\\(\\)
+$$
 ```
 Free center piece
 ```markdown
-\\[\\]
+$$
 ```
 Nice simple snippets.<br/>
 
@@ -94,7 +94,7 @@ Note: change the number of "l" to the number of columns in your table.
 
 
 
-### Arrows \\(leftarrow \rightarrow\\)
+### Arrows $leftarrow \rightarrow$
 ```latex
 \rightarrow
 \leftarrow
