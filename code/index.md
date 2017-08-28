@@ -11,7 +11,7 @@ the progress bar indicates how updated the pages are.
 <progress value="5" max="100"></progress>
 ## [Flask](Flask/)
 <progress value="1" max="100"></progress>
-## [Django](django/)
+## [Django](Django/)
 <progress value="0" max="100"></progress>
 ## [Tensorflow](http://niklasinde.github.io/datascience/tensorflow/)
 <progress value="10" max="100"></progress>
