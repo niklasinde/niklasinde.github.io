@@ -7,4 +7,4 @@ This page is for lecture notes.
 
 ### [Advanced Numerical Algorithms with Python](advanced_algorithms/)
 
-###
+### []

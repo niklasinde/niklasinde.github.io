@@ -2,11 +2,12 @@
 
 
 
-### Date :
+### Date: 28 august
 
+Lecture dates: Tuesday 10-12, Wednesday 15-17
 
-first project: splines blossoms 
+first project: splines blossoms
 
-second project: approximations 
+second project: approximations
 
-trird project: mpi
+third project: Parallel programming.

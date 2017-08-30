@@ -88,6 +88,17 @@ $$ Var(\alpha) = \sigma^2 \left( \frac{\sum x_i^2}{nS_{xx}}\right)$$
 $S_{xx} = \sum(x_i+\bar{x})^2=\sum x_i^2-n\bar{x}^2$
 $$ E(\alpha) = \alpha  $$
 
+Or the easy way:
+
+$$var(\alpha)=var(\bar{Y}-\beta\bar{X})$$
+$$\frac{\sigma^2}{n}+\bar{X}^2var(\beta)-Cov(\bar{Y},\beta)$$
+$$\frac{\sigma^2}{n}+\bar{X}^2\frac{\sigma^2}{S_{xx}}-0$$
+$$\sigma^2\left(\frac{1}{n}+\frac{\bar{X}^2}{S_{xx}}\right)$$
+
+This may be wrong double check.
+
+
+
 ### Confidence intervals for $\alpha \text{ and } \beta$
 We have the reference variable (we know that $\alpha$ and $\beta$ are normally distributed).
 
@@ -97,7 +108,7 @@ $$R_\beta := \frac{\hat{\beta}-\beta}{s\sqrt{\frac{1}{S_{XX}}}}\sim t(n-2) $$
 
 From this we get the confidence intervals:
 $$I_\alpha =\left(\hat{\alpha}\pm t_{\frac{p}{2}}(n-2)s\sqrt{\frac{\sum_i x_i^2}{nS_{xx}}} \right)$$
-$$I_\beta =\left(hat{\beta}\pm t_{\frac{p}{2}}(n-2)s\sqrt{\frac{1}{S_{xx}}} \right)$$
+$$I_\beta =\left(\hat{\beta}\pm t_{\frac{p}{2}}(n-2)s\sqrt{\frac{1}{S_{xx}}} \right)$$
 
 
 

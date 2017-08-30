@@ -7,13 +7,13 @@ Other subjects.
 
 [Distributions and confidence intervals of estimates](estimates.md)
 
-Fist a simple linear regression is just $Y = \alpha + \beta X $. Where you try to fit a linear line to find pattern i data.
+Fist a simple linear regression is just $Y = \alpha + \beta X$. Where you try to fit a linear line to find pattern i data.
 
 From a numerical mathematical stand point this is kinda simple but from a statistical stand point there is a lot of complicated terms that we need to get threw.
 
 We start by the numerical and "easy" way.
 
-If have some data points in two dimensions $ (x_1,y_1),(x_2,y_2),...(x_n,y_n)$. And we want to find a straight line that tries to go therw these points as good as possible like this:
+If have some data points in two dimensions $(x_1,y_1),(x_2,y_2),...(x_n,y_n)$. And we want to find a straight line that tries to go therw these points as good as possible like this:
 
 ![linear regression pic](img/linear_regression_line.png)
 
@@ -43,7 +43,7 @@ where $y_i$ is the true value and $\hat{y}_i$ is the predicted value or the y va
 The numerical proof of this is the following:
 This example is taken from a great video from khan academy [link](https://www.khanacademy.org/math/linear-algebra/alternate-bases/orthogonal-projections/v/linear-algebra-least-squares-approximation)
 From the matrix equation above we have $X\beta=Y$. This equation doesn't have a solution so the next best thing is to use
-$$X\hat{\beta} = Y$$ where $\hat{\beta}$ is the coefficients for the least square solutions.
+$X\hat{\beta} = Y$$ where $\hat{\beta}$ is the coefficients for the least square solutions.
 
 A side note is that we use $\hat{\beta}$ to be extra clear, in general they are the same thing.)
 
@@ -59,9 +59,11 @@ We see that $text{proj}_{Y}C(X)-Y \in C(A)^{\bot}$.
 \newline
 And we know that the complement of the column space is the null space of the $A$. (The compliment of the span of the column vectors is the null space of A)
 $$Col(A)^\bot = Null(A)$$
-so the complement of the row space is (solution space of A is the col(A))
-$$row(A)^\bot=N(A^T)$$ or the null space of the transpose of A.
-\newline
+so the complement of the row space is (solution space of A is the $col(A)$)
+
+$$row(A)^\bot = N(A^T)$$
+or the null space of the transpose of A.
+
 So we get:
 $$X^T(X\beta-Y)=\bar{0}$$
 $$X^TX\beta-X^TY=\bar{0}$$
@@ -76,7 +78,7 @@ The statistical way is a bit more confusing but more mathematical correct. From 
 
 So the statistical point of view is that $Y_i$ is a [random variable](datascience/statistics/index.md) (check this link always) with distribution $Y_i \sim N(\alpha+\beta x_i,\sigma^2) $. Let this sink in. We assume that for a given $x_i$ we get a random variable $Y_i\\. A random variable. Okey.
 
-Another way to write this is $ y_i = \alpha + \beta x_i + \epsilon $ where $\epsilon \sim N(0,\sigma^2)$ is the error term.
+Another way to write this is $y_i = \alpha + \beta x_i + \epsilon$ where $\epsilon \sim N(0,\sigma^2)$ is the error term.
 
 Note here that the Y is a capital letter and the x is small. This is because Y is a random variable and x is a data point.
 
@@ -86,7 +88,7 @@ Okey now we know this.
 
 We want to minimize $ \epsilon $ or in stastiscal words make the $\sigma^2$ smaller. (if $\sigma$ = 0 then we have a perfect line)
 
-So $ \epsilon \sim N(0,\sigma^2) $ how do we find the perfect line jo när $(y_i-\hat{y}_i)^2$ is small
+So $\epsilon \sim N(0,\sigma^2)$ how do we find the perfect line jo när $(y_i-\hat{y}_i)^2$ is small
 
 
 bla bla
