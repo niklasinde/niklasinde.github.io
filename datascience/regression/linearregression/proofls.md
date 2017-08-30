@@ -43,20 +43,33 @@ where $y_i$ is the true value and $\hat{y}_i$ is the predicted value or the y va
 The numerical proof of this is the following:
 This example is taken from a great video from khan academy [link](https://www.khanacademy.org/math/linear-algebra/alternate-bases/orthogonal-projections/v/linear-algebra-least-squares-approximation)
 From the matrix equation above we have $X\beta=Y$. This equation doesn't have a solution so the next best thing is to use
-$X\hat{\beta} = Y$$ where $\hat{\beta}$ is the coefficients for the least square solutions.
+$X\hat{\beta} = Y$ where $\hat{\beta}$ is the coefficients for the least square solutions.
 
 A side note is that we use $\hat{\beta}$ to be extra clear, in general they are the same thing.)
 
 If we look at the picture below we see the purple plane. This is the solution space of A or X in our case. This means the space where X has a solution for given $\beta$. As mentioned before our equation does not have a solution but the next best thing is projection of y on the solution space.
+
+####tldr: Y is not in the solutionspace of X. What do we do?
+
+We want to find a vector $X\hat{\beta}$ that is a close to Y a possible.
+
+The solution is when $X\hat{\beta}=\text{proj}_C(X)Y$
+
 We get that:
-$$X\hat{\beta}=\text{proj}_{Y}C(X)$$
+$$X\hat{\beta}=\text{proj}_{C(X)}Y$$
+
 or to make the picture more clear:
-$$X\hat{\beta}=\bar{v}=\text{proj}_{Y}C(X)$$
+
+$$X\hat{\beta}=\bar{v}=\text{proj}_{C(X)}Y$$
+
+######(site note $\text{proj}_x \text{y}$ is read "The projection of y onto x"
 ![linear regression pic](img/leastproof.png)
 
-If we take -Y on both sides we get $$X\beta-Y=\text{proj}_{Y}C(X)-Y$$
-We see that $text{proj}_{Y}C(X)-Y \in C(A)^{\bot}$.
-\newline
+If we take -Y on both sides we get
+$$X\beta-Y=\text{proj}_{C(X)}Y-Y$$
+
+We see that $\text{proj}_{Y}C(X)-Y \in C(A)^{\bot}$.
+
 And we know that the complement of the column space is the null space of the $A$. (The compliment of the span of the column vectors is the null space of A)
 $$Col(A)^\bot = Null(A)$$
 so the complement of the row space is (solution space of A is the $col(A)$)
@@ -71,12 +84,21 @@ $$X^TX\beta=X^TY$$
 $$\beta=(X^TX)^{-1}X^{T}Y$$
 
 
+Another way is to know the formula of a projection.
+
+$$\text{proj}_{X}$$
+
+
 This is was the easy way.
+
+
+
+
 
 ## The statistical way
 The statistical way is a bit more confusing but more mathematical correct. From my point of view the numerical way just calculates the best line but in statistics they explane why.
 
-So the statistical point of view is that $Y_i$ is a [random variable](datascience/statistics/index.md) (check this link always) with distribution $Y_i \sim N(\alpha+\beta x_i,\sigma^2) $. Let this sink in. We assume that for a given $x_i$ we get a random variable $Y_i\\. A random variable. Okey.
+So the statistical point of view is that $Y_i$ is a [random variable](datascience/statistics/index.md) (check this link always) with distribution $Y_i \sim N(\alpha+\beta x_i,\sigma^2) $. Let this sink in. We assume that for a given $x_i$ we get a random variable $Y_i$. A random variable. Okey.
 
 Another way to write this is $y_i = \alpha + \beta x_i + \epsilon$ where $\epsilon \sim N(0,\sigma^2)$ is the error term.
 
@@ -100,33 +122,3 @@ $S_{xy} = \sum (x_i-\bar{x})(y_i-\bar{y})$
 
 $\beta = \frac{S_{xy}}{S_{xx}}$
 $\alpha = \bar{y}-\beta\bar{x}$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$$
