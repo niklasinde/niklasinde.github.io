@@ -18,3 +18,4 @@ Third project: Parallel programming.
 ##[Lecture 3](lecture3.md)
 
 ##[Lecture 4](lecture4.md)
+„
