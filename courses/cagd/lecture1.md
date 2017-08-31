@@ -28,6 +28,8 @@ Thought if we are in point a and going to point p there is a unique  vector v th
 
 so subtraction of to points is difined and is a vector.
 
+but then what is addition of two points? it is not defined excrpt for: 
+
 
 
 
