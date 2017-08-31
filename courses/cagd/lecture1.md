@@ -30,6 +30,16 @@ so subtraction of to points is difined and is a vector.
 
 but then what is addition of two points? it is not defined excrpt for: 
 
+lets create addotion
+
+look up affine barycentric combination
+
+
+$b_0,b_1 
+
+A=E^2 where E^2 is an affine space in R^2
+
+
 
 
 
