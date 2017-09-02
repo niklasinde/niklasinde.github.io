@@ -5,11 +5,11 @@
 
 Lecture dates: Tuesday 10-12, Wednesday 15-17
 
-First project: splines blossoms
+[First project: splines blossoms](projects/project01.pdf)
 
-Second project: approximations
+[Second project: approximations](projects/project02.pdf)
 
-Third project: Parallel programming.
+[Third project: Parallel programming](projects/project03.pdf)
 
 ## [Lecture 1](lecture1.md)
 
