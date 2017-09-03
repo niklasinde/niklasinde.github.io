@@ -36,6 +36,7 @@ or
 legend(c("bottomright"),legend=c("Group1","Group2","Group3"),lwd=c(2.5,2.5),col=c("red","green","blue"))
 ```
 ## Distribution sign in latex
+$X \sim N(\mu,\sigma^2)$
 ```latex
 \sim
 ```
@@ -49,6 +50,7 @@ So if you'r working on a project for a long time you don't have to update the da
 ### Matrix <a name"matrix"></a>
 
 ### Code <a name="code"></a>code
+
 ```latex
 \begin{lstlisting}[language = R]
 [1] "mean error test:" "1.46934685949842"
@@ -59,7 +61,7 @@ So if you'r working on a project for a long time you don't have to update the da
 ```
 Really nice way to include code in you latex document
 
-### <a name="img">netInclude images</a>
+### <a name="img">Include images</a>
 ```latex
 \begin{figure}[H]
 \centering
@@ -69,14 +71,22 @@ Really nice way to include code in you latex document
 ```
 Conditional function
 ```latex
-\[
     X=
 \begin{cases}
-    1,& \text{if male} \\
-    0,              & \text{if women}
+    1,& \text{if happy} \\
+    0,& \text{if super happy}
 \end{cases}
-\]
 ```
+$$
+    X=
+\begin{cases}
+    1,& \text{if happy} \\
+    0,              & \text{if super happy}
+\end{cases}
+$$
+
+
+
 ### Tabels
 ```latex
 \begin{table}[H]
@@ -91,11 +101,23 @@ Conditional function
 \end{table}
 ```
 Note: change the number of "l" to the number of columns in your table.
+$$\begin{table}[H]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{lll}
+0  & 0  & 1  \\
+0 & 40 & 10 \\
+1 & 12 & 18
+\end{tabular}
+\end{table}$$
 
 
+### Arrows
 
-### Arrows $leftarrow \rightarrow$
+$\leftarrow \rightarrow \leftrightarrow$
 ```latex
 \rightarrow
 \leftarrow
+\leftrightarrow
 ```
