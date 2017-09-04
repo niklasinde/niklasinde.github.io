@@ -7,7 +7,7 @@
 [Lecture pdf](lectures/1.pdf)
 
 [Wikipedia link to De Boor's algorithm ](https://en.wikipedia.org/wiki/De_Boor%27s_algorithm)
-
+[Link to first project python file](project1/spline_blossom.py)
 A spline is a cubic function s:$[u_p,u_{k-p}] \in R \rightarrow R^2$ (?)
 
 We are going to use De Boor's algorithm. One advatage is that is has local support for a given x value. This means that we don't have to compute all the splines for a x-value but only the ones that effect x. This is also an advantage in for example computer graphics. Where if we move a point the whole graph doesn't change.
