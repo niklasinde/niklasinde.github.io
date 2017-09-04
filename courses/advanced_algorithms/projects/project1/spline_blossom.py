@@ -43,6 +43,8 @@ class spline():
 
     def rec(self,i,k,xi):
         """recurrence formula for b-spline"""
+        
+        
         if k == 0:
             if self.p[i-1]==self.p[i]:
                 return(0)
@@ -53,8 +55,7 @@ class spline():
         elif k > 0:
             # This formula is taken from an older project dubble check that this is correct.
             u = ((self.x-self.p[i-1])/(self.p[i+k-1]-self.p[i-1]))*self.rec(i,k-1,xi)+((self.p[i+k]-self.x)/(self.p[i+k]-self.p[i]))*self.rec(i+1,k-1,xi)
-#            u =     ((x-points[i-1])/(points[i+k-1]-points[i-1]))*rec(points,i,k-1,xi)+((points[i+k]-x)/(points[i+k]-points[i]))*rec(points,i+1,k-1,xi)
-
+            u = ((self.x-self.p[i-1])/(self.p[i+k-1]-self.p[i-1]))*self.rec(i,k-1,xi)+((self.p[i+k]-self.x)/(self.p[i+k]-self.p[i]))*self.rec(i+1,k-1,xi)
             return(u)
 
     def loader(self):
@@ -62,23 +63,18 @@ class spline():
         ### We create the xi variable to keep track of what interval we are currently working on
         self.xi = self.ref()
         ### N is the basis functions
-        B = []
-        for i in range(len(self.p)):
-            b = self.rec(i+1,3,self.xi[i+1])
-            B.append(b)
-        self.N = B
-#           self.N = [self.rec(i+1,3,self.xi[i+1]) for i in range(len(self.p)-2)]
-#
+        self.N = [self.rec(i+1,3,self.xi[i]) for i in range(len(self.p)-4)]
+
     ##########################################################################3
 
 
 
 
 
-    def basicplot():
-        for i in range(self.N):
-            evalfunc = lambdify(x, self.N[i], modules=['numpy'])
-            y = linspace(self.p[0],self.p[-1],50)
+    def basicplot(self):
+        for i in range(len(self.N)):
+            evalfunc = lambdify(self.x, self.N[i], modules=['numpy'])
+            y = linspace(self.p[i+1],self.p[i+2]+0.11,50)
             plt.plot(y,evalfunc(y))
         plt.title("Plot of the basic functions for the splines")
         plt.show()
@@ -109,7 +105,7 @@ class spline():
 
 points = [0,1/6,2/6,3/6,4/6,5/6,1]
 a = spline(points)
-
+a.basicplot()
 """
 Från wiki
 
