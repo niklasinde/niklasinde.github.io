@@ -24,7 +24,7 @@ This list last updated 22/7 04:41
 ## In progress
 * Should we use $x, x^{2}$ and so when doing data analysis?
 
-  Yes check out statistical look in to "interaction" in multivariable linear regression.
+  Yes check out statistical "interaction" in multivariable linear regression.
 * What is the optimal way of calculating weights is there another way then gradient decent?
 
 A neural network with a lot of deep layers becomes more of a "approximation" then a "statistical regression". But to increase the possibility of a steeper decline we can take the variables that have the most correlation and is not correlated to any other. Then in we can check that if we add a $x^2$ term to increase the explained variance and decrease the variance of the error. (Check out the anova variance stuff.)
