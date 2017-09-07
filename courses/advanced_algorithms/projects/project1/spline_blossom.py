@@ -80,6 +80,7 @@ class spline():
         for i in range(len(self.points)-self.k-1):
             n2=[]
             p = self.points[i:i+self.k+2]
+#            print(p)
             xi = self.ref(p)
             for j in range(self.k+1):
                 n2.append(self.rec(p,0,self.k+1,xi[j]))
@@ -107,26 +108,26 @@ class spline():
                     evalfunc = lambdify(self.x, self.N[i][j], modules=['numpy'])
                     y = linspace(self.points[i+j],self.points[i+j+1],50)
 #                    print(type(y))
-                    plt.plot(y,evalfunc(y))
-        plt.ylim(0,1.2)
-        plt.xlim(self.points[0],self.points[-1])
+                    plt.plot(y,self.coeff[i]*evalfunc(y))
+#        plt.xlim(self.points[0],self.points[-1])
         plt.title("Plot of the basic functions for the splines")
         plt.show()
     
     def evalfull(self,X):
         p = self.points
-#        print(p,"PPPPPPPP",x,"x")
+#        print(p,"PPPPPPPP",X,"x")
 #        if (p[self.k] > x).all() and (x > p[-self.k]).all():
 #            print("X is not in the correct interval")
         y = []
-        print(len(self.coeff),len(self.N),"do the matching match")
+#        print(len(self.coeff),len(self.N),"do the matching match")
         for i in range(len(X)):
             hot_interval = self.hotinterval(X[i])
             func_val = 0
             g = 0 
             for j in range(hot_interval-self.k-1,hot_interval):
-                evalfunc = lambdify(self.x, self.N[j+1][self.k-g], modules=['numpy'])
-                func_val += self.coeff[j+1]*evalfunc(X[i])
+#                print(j,self.k-g)
+                evalfunc = lambdify(self.x, self.N[j][self.k-g], modules=['numpy'])
+                func_val += self.coeff[j]*evalfunc(X[i])
                 g+=1
             y.append(func_val)
         return(y)
@@ -135,19 +136,22 @@ class spline():
         p = self.points
         func_val=0
         hot_interval = self.hotinterval(x)
-        if p[hot_interval] < x and x <= p[hot_interval+self.k+1]:
+#        print(x,hot_interval,i)
+        if hot_interval < i or i+self.k < hot_interval:
+#            print("This value returened zero")
             return(0.)
 #        if xi is in the function value return 0
-        for j in self.N[i]:
-            evalfunc = lambdify(self.x, j, modules=['numpy'])
-            func_val += self.coeff[i]*evalfunc(x)
+        else:
+            evalfunc = lambdify(self.x, self.N[i][hot_interval-i] , modules=['numpy'])
+            func_val = self.coeff[i]*evalfunc(x)
+#            print(func_val)
         return(func_val)    
         
         
         
     def hotinterval(self, x):
         p = self.points
-        for i in range(len(p)):
+        for i in range(len(p)-1):
             if p[i] <= x and x <= p[i+1]:
                 return(i)
         
@@ -156,6 +160,8 @@ class spline():
         
         
 class matrixequation():
+    """ Calculates A d = x  """
+    
     def __init__(self,xy,points):
         self.xy = xy
         self.p = points
@@ -164,36 +170,40 @@ class matrixequation():
         self.xyvec = self.xyvector() 
         self.e = self.elist()
         self.A = self.Avector()
-#        self.z = self.solver()
+        self.z = self.solver()
         
     def Avector(self):
         """creats a square tridiagonal matrix of size n"""
         n = len(self.N.N)
+#        self.N.basicplot()
+
         A = np.zeros((n,n))
         for col in range(n):
             for row in range(n):
-                A[row][col] = self.N.evalbasis(self.e[col],row)
+                A[row][col] = self.N.evalbasis(self.e[row],col)
         return(A)
     
     def elist(self):
         l = []
         p = self.p
-        for i in range(len(self.N.N)):
+        for i in range(1,len(self.N.N)+1):
             l.append((p[i]+p[i+1]+p[i+2])/3)
+#            print(p[i],p[i+1],p[i+2])
+#        print(l)
         return(l)
         
     def xyvector(self):
         """ When i write xy its because its the same function for x and y"""
         xy = np.array(self.xy)
-        xy.reshape(len(self.xy),1)
+        xy.reshape((1,len(self.xy)))
         return(xy)
         
     def solver(self):
-        print(self.A,self.xy)
+#        print(shape(self.A),shape(self.xy))
         z = scipy.linalg.solve(self.A,self.xy)
         self.coeff = z
         
-        print(self.coeff)
+#        print(self.coeff)
         return(z)
         
 
@@ -201,16 +211,15 @@ class interpolation():
     def __init__(self,points,x,y):
         
         self.xcoeff = matrixequation(x,points)
-        self.ycoeff = matrixequation(x,points)
+        self.ycoeff = matrixequation(y,points)
         
-        self.splinex = spline(points,xcoeff.coeff)
-        self.spliney = spline(points,ycoeff.coeff)
+        self.splinex = spline(points,self.xcoeff.coeff)
+        self.spliney = spline(points,self.ycoeff.coeff)
         
         
     def x(self,x):
         return(self.splinex.evalfull(x))
     def y(self,y):
-        
         return(self.spliney.evalfull(y))
     
     
@@ -224,25 +233,32 @@ class interpolation():
 
 
 
-points = [0,0,0,1,2,3,4,5,6,7,7,7]
-x = [1,2,3,4,5,1,4,4]
-y = [1,2,2,10,6,2,4,4]
+points = [0,0,0,1,2,3,3.5,4,4.5,5,6,7,7,7]
+x = [1,2,3,4,5,5,5,5,5,4]
+y = [1,2,3,4,5,5,4,3,2,1]
 a = spline(points)
+an = a.N
+#a.basicplot()
 #d = d_iterative(points, 4, coeffs,a.xi)
 
-#interpol= interpolation(points,x,y)
+interpol= interpolation(points,x,y)
 
 
-a = matrixequation(x,points).A
-b = matrixequation(y,points).A
-u = linspace(1,6,40)
-#ux = interpol.x(u)
-#uy = interpol.y(u)
-plt.scatter(x,y)
-plt.plot(ux,uy)
-print(ux,uy)
+
+#print(a)
+u = linspace(0.1,6.9,100)
+c = matrixequation(x,points).A
+d = matrixequation(y,points).A
+ux = interpol.x(u)
+uy = interpol.y(u)
+plt.scatter(x,y,color="red")
+plt.plot(uy, ux)
+plt.xlim(0,6)
+plt.ylim(0,6)
+
+#print(ux,uy)
 #print(len(x),len(y))
-#a.basicplot()
+
 #plt.plot(x,y)
 
 #a = interpolate(x,y,)
