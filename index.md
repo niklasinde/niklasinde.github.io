@@ -21,7 +21,10 @@
 ### Questions:
 ## Math
 
-* What statistical meaning does the different activation function have in a neural network?
+* What statistical meaning does the different activation
+ function have in a neural network?
+
+
 ## Programming
 
 * How can you use Obj-c to get information for a flask/Django app?

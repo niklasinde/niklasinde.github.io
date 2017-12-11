@@ -49,6 +49,22 @@ So if you'r working on a project for a long time you don't have to update the da
 
 ### Matrix <a name"matrix"></a>
 
+```latex
+\left[\begin{array}[ccc]
+  0 & 1 & 2 \\
+  3 & 4 & 5 \\
+  6 & 7 & 8
+\end{array}\right]
+```
+$$
+\left[\begin{array}[cc]\\
+  2 & 2 \\
+  3 & 4\\
+  6 & 7
+\end{array}\right]
+$$
+
+$\frac{1}{2}$
 ### Code <a name="code"></a>code
 
 ```latex
