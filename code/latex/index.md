@@ -18,9 +18,9 @@ Nice simple snippets.<br/>
 
 ## Index
 
-1. [\today](#today)
-2. [something](#something)
-3. [something](#something)
+1. [General functions](#general)
+2. [\something](#matrix)
+3. [something](#conditional)
 
 ## No indent
 
@@ -31,6 +31,14 @@ or
 ```latex
 \setlength\parindent{0pt}
 ```
+<a name="today">Today</a>
+Set title to:
+```latex
+\title{\today}
+```
+So if you'r working on a project for a long time you don't have to update the date everyday.
+
+
 ## legend
 ```r
 legend(c("bottomright"),legend=c("Group1","Group2","Group3"),lwd=c(2.5,2.5),col=c("red","green","blue"))
@@ -40,14 +48,8 @@ $X \sim N(\mu,\sigma^2)$
 ```latex
 \sim
 ```
-## Today <a name="today"></a>
-Set title to:
-```latex
-\title{\today}
-```
-So if you'r working on a project for a long time you don't have to update the date everyday.
 
-### Matrix <a name"matrix"></a>
+<a name"matrix">Matrix</a>
 
 ```latex
 \left[\begin{array}[ccc]
