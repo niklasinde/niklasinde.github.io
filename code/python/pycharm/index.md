@@ -20,9 +20,9 @@ if type(work_dir) in [list, tuple]:
     work_dir = work_dir[inp]
 ```
 
-This will create a variable work_dir so if you would like to run the file again quickly you create a makro.<br>
+This will create a variable work_dir. To make a short command to run this file again in the console you can create a makro.<br>
 (Edit -> Makros -> start macro recording) writing the following:
 ```python
-runfile(__file__, wdir=work_dir)
+runfile(__file__, wdir=work_dir) <enter>
 ```
 You can then later in settings -> keymap set a shortcmd to this makro.
