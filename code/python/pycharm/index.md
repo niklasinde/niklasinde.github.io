@@ -9,8 +9,8 @@ In settings add the following code as "Starting script" (In settings -> Build, E
 work_dir = WORKING_DIR_AND_PYTHON_PATHS
 
 if type(work_dir) in [list, tuple]:
-    for dirr in work_dir:
-        print(dirr)
+    for i in range(len(work_dir)):
+        print("{}: ".format(i),work_dir[i])
     def get_imp():
         imp = input()
         try:
