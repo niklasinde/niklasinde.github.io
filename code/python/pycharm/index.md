@@ -7,7 +7,8 @@
 In settings add the following code as "Starting script" (In settnings -> Build, Execution, Deployment -> Console -> Python Console:
 ```python
 work_dir = WORKING_DIR_AND_PYTHON_PATHS
-print(work_dir)
+for dirr in work_dir:
+  print(dirr)
 if type(work_dir) in [list, tuple]:
     def get_imp():
         imp = input()

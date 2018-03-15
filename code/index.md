@@ -6,6 +6,7 @@ the progress bar indicates how updated the pages are.
 ## [Latex](latex/)
 <progress value="80" max="100"></progress>
 
+## [General Snippets](general_snippets/)
 
 ## [Python](python/)
 <progress value="5" max="100"></progress>

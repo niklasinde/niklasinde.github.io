@@ -1,10 +1,98 @@
 # Python
+[Pycharm settings and short commands](pycharm/)
 
 
-### snippets
+[How to structure your project](structure/)
 
-## Different type of structures.
-### Lists
+## Import statements
+
+There are two ways to import stuff into python:
+```python
+ from module import function/Classes as name
+ ```
+and
+```python
+import module
+```
+
+Note that
+
+```python
+import module
+```
+and
+```python
+ from module import * as module
+```
+ is the same thing.
+
+## snippets
+### for loops and list comprehension
+```python
+l = []
+for i in range(10):
+  l.append(i)
+
+l == [i for i in range(10)]
+>>>True
+```
+
+
+
+# Different type of structures.
+## Lists
+###Find index
+
+```python
+l = [1,2,"hej",4,5]
+
+l.index("hej")
+>>> 2
+```
+
+
+# Classes
+## Basics
+Classes are stuff unlike function used when you have functions that you wish to save data in.
+
+In classes an important thing is the self thingy
+
+For example if we do:
+
+```python
+class Example:
+  def __init__(self, values)
+    self.values
+
+
+ex = Example(2)
+print(ex.values)
+>>> 2
+```
+
+## Builtin functions
+```python
+class Example:
+
+```
+
+### init__
+The function that is called then the class in instantiated.
+
+
+### __getitem__(key)
+The function that is called when Example[key].
+
+### __setitem__(key, value)
+The function that is called when Example[key] = value.
+
+### __call__()
+The function that is called when Example()
+
+## Property
+
+Property is used when you have a variable
+
 
 
 
