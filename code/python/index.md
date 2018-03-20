@@ -36,8 +36,28 @@ for i in range(10):
 l == [i for i in range(10)]
 >>>True
 ```
+### for dicts
 
+```python
+d = {4: 10, 10: 9, 2: 8}
+for index, key in enumerate(d):
+  print(index, key)
 
+>>>0 4
+>>>1 10
+>>>2 2
+
+```
+or
+```python
+for key, value in d.items():
+  print(key, value)
+
+>>>4 10
+>>>10 9
+>>>2 8
+
+```
 
 # Different type of structures.
 ## Lists
