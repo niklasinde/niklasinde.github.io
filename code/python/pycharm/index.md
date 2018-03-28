@@ -1,4 +1,11 @@
 
+### Nice keyshortcuts to use:
+* Navigate/File structure to quickly navigate to a function in a class
+*
+*
+*
+* Code -> Comment with line comment. If you wish to comment out one line or 
+* ctrl click to see definition or navigate to the function
 
 
 ### To run pycharm like spyder:
