@@ -8,6 +8,8 @@ the progress bar indicates how updated the pages are.
 
 ## [General Snippets](general_snippets/)
 
+## [Vue](vue/)
+<progress value="100" max="100"></progress>
 ## [Python](python/)
 <progress value="5" max="100"></progress>
 ## [Flask](Flask/)
