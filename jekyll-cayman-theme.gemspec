@@ -1,4 +1,3 @@
-# coding: utf-8
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-cayman-theme"
@@ -6,11 +5,11 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Niklas Inde"]
   spec.email         = ["niklasinde@gmail.com"]
 
-  spec.summary       = %q{A Jekyll theme for the responsive theme for GitHub Pages http://jasonlong.github.io/cayman-theme/ }
-  spec.homepage      = "https://github.com/niklasinde"
-  spec.license       = "MIT"
+  s.files         = `git ls-files -z`.split("\x0").select do |f|
+    f.match(%r{^((_includes|_layouts|_sass|assets)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
+  end
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(_layouts|_includes|_sass|LICENSE|README)/i}) }
+  s.required_ruby_version = ">= 2.4.0"
 
   spec.add_development_dependency "jekyll", "~> 3.2"
   spec.add_development_dependency "bundler", "~> 1.12"
