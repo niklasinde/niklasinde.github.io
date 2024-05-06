@@ -10,7 +10,7 @@ Inside text
 ```markdown
 $$
 ```
-Free center piece
+Free centerpiece
 ```markdown
 $$
 ```
