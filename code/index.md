@@ -20,5 +20,7 @@ the progress bar indicates how updated the pages are.
 <progress value="10" max="100"></progress>
 ## [R](R/)
 <progress value="4" max="100"></progress>
+## [Nginx](/nginx)
+<progress value="50" max="100"></progress>
 
 [Markdown](https://guides.github.com/features/mastering-markdown/)<br/>
