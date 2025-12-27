@@ -1,7 +1,7 @@
 
 
 Skatteverket ska ha 
-
+![img.png](img.png)
 
 Årsredovisning balansräkning resultaträkning
 Faställelse intygen är en underskript på att de man skickar till bolagsverket är riktigt. 
